@@ -39,10 +39,17 @@ Before running the bot, make sure to edit the following files:
      ` query_id=xxxxxxxxxxx` or `user=xxxxxxxxxxxxxx`
 
 2. **`config.json`**: This file contains configuration settings for the bot.
-   - Example :
+   - Example if random win or lose:
      ```json
      {
-         "always_win": false
+         "always_win": False
+     }
+     ```
+     
+   - Example if always:
+     ```json
+     {
+         "always_win": True
      }
      ```
 
