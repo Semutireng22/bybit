@@ -1,3 +1,5 @@
 {
-    "always_win": False
+    "max_game_time": 10,
+    "min_game_time": 5,
+    "always_win": false 
 }
